@@ -11,18 +11,18 @@ gender = "Male"
 ```
 
 ### b. Using typeinference
-1. Using var
-```go
-var name = "Teddy"
-var age = 21
-var gender = "Male"
-```
+  1. Using var
+  ```go
+  var name = "Teddy"
+  var age = 21
+  var gender = "Male"
+  ```
 
-2. Using :=
-```go
-name := "Teddy"
-age := 21
-gender := "Male"
-```
+  2. Using :=
+  ```go
+  name := "Teddy"
+  age := 21
+  gender := "Male"
+  ```
 
 *:= can't be used outside functions*
