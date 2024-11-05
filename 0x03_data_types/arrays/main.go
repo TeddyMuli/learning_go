@@ -10,7 +10,7 @@ func main() {
 
 	// Infering the length of the array
 	var arr3 = [...]string{"ted", "muli"}
-	arr4 := [...]string{"goat", "sheep", "cow"}
+	arr4 := []string{"goat", "sheep", "cow"}
 
 	// Change value
 	arr2[4] = 9
