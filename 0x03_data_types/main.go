@@ -12,11 +12,16 @@ func main() {
 	var arr3 = [...]string{"ted", "muli"}
 	arr4 := [...]string{"goat", "sheep", "cow"}
 
+	// Change value
 	arr2[4] = 9
+
+	// Initialize specific elements
+	var arr5 = [4]int{1:10, 3:7}
 
 	fmt.Println(arr0)
 	fmt.Println(arr1)
 	fmt.Println(arr2)
 	fmt.Println(arr3)
 	fmt.Println(arr4)
+	fmt.Println(arr5)
 }
