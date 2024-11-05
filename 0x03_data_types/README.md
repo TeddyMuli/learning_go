@@ -21,4 +21,3 @@ var height float32
 var pi float64
 ```
 
-## Arrays
