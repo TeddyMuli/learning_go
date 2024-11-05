@@ -14,7 +14,7 @@ func main() {
 
 	fmt.Printf("Enter your name > ")
 	fmt.Scan(&name)
-	fmt.Println("Goodmorning: ",name)
+	fmt.Println("Goodmorning: ", name)
 
 	fmt.Printf("Enter your age > ")
 	fmt.Scan(&age)
@@ -30,7 +30,7 @@ func main() {
 	fmt.Scan(&option1)
 	question_count++
 
-	if (option1 == "Go" || option1 == "go") {
+	if option1 == "Go" || option1 == "go" {
 		fmt.Println("Correct")
 		correct_count++
 	} else {
@@ -41,7 +41,7 @@ func main() {
 	fmt.Scan(&option2)
 	question_count++
 
-	if (option2 == 3) {
+	if option2 == 3 {
 		fmt.Println("Correct")
 		correct_count++
 	} else {
