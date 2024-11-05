@@ -24,4 +24,7 @@ func main() {
 	fmt.Println(arr3)
 	fmt.Println(arr4)
 	fmt.Println(arr5)
+
+	// Find the lenght of an array
+	fmt.Println(len(arr4))
 }
