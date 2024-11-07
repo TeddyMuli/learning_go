@@ -26,3 +26,5 @@ gender = "Male"
   ```
 
 *:= can't be used outside functions*
+
+_ is used to omit a value in a for loop
